@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang</title>
+</head>
+
+<body>
+
+    <nav style="background-color: gainsboro; height: 50px; display: grid;">
+       
+        <ul style="display: flex; list-style-type: none;">
+            <li style="margin-right: auto;">
+                <a href="">Home</a> |
+            </li>
+            <li style="margin-right: auto;">
+                <a href="">Generate Link</a> |
+            </li>
+            <li style="margin-right: auto;">
+                <a href="">Transaction History</a> |
+            </li>
+            <li style="margin-right: auto;">
+                <a href="">Policy</a> |
+            </li>
+            <li style="margin-right: auto;">
+                <a href="">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+       
+        <table style="border: 0;">
+            <tr>
+                <td>
+                    <img src="macbook.jpg" width="400px"> <br>
+                    <input type="file" value="Upload Photo">
+                </td>
+                <td>
+                    <ul style="list-style: none; margin-left: 200px; text-align: left;">
+                        <li> Title Here : <input type="text" name="title here :" />
+                        </li>
+                        <br>
+                        <li>Description : <textarea name="description" cols="50" rows="5"></textarea>
+                        </li>
+                        <br>
+                        <li>Account Number : <input type="number" name="Account Number :" /> </li>
+                        <br>
+                        <li>Bank : <select name="bank">
+                                <option>HBSC</option>
+                                <option>BCA</option>
+                                <option>BRI</option>
+                            </select>
+                        </li>
+                        <br>
+                        <li>Account Holder : <input type="text" name="Account Holder:" /></li>
+                        <br>
+                        <li>Transaction : <select name="transaction">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </li>
+
+                        <p style="margin-left: 20px;">*if the transaction is for 3 person, choose 3 from the drop-down
+                            list </p>
+                        <input type="checkbox" id="ket1" value="send to Mobile" ; style="margin-left: 50px;">
+                        <label for="ket1>"> Send to Mobile </label>
+                        <br>
+                        <input type="checkbox" id="ket2" value="send to E-mail" ; style="margin-left: 50px;">
+                        <label for="ket2>"> Send to E-mail </label>
+                        <br>
+                        <br>
+                        <li>Send to Mobile Phone : <input type="number" name="send to Mobile Phone:" /></li>
+                        <br>
+                        <li>
+                            <label>Send to E-mail : <input type="email" /></label>
+                        </li>
+                        <br>
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Generate Nabr Link"
+            style="margin-left: 750px; background-color: rgb(11, 216, 11); color: white;">
+    </main>
+</body>
+
+</html>

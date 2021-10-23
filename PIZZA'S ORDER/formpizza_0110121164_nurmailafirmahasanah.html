@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>FORM PIZZA</title>
+</head>
+<h2><b>BLACK GOOSE BISTRO | PIZZA-ON-DEMNAD</b></h2>
+<P>Our 12" wood-fired pizzas are avaible for delivery. Build your custom pizza and we'll deliver it within an hour</P>
+<h3>Your Information</h3>
+<form action="yourorder.html" method="post" action="orderlist">
+    Name : <input type="text" name="name" />
+    <form method="post" action="orderlist"></form>
+    Address : <input type="text" name="Address" />
+    <form method="post" action="orderlist"></form>
+    Telephone Number : <input type="text" name="Telephone Number" />
+    <form method="post" action="orderlist"></form>
+    E-mail : <input type="email" name="E-mail" />
+    <br>
+    <form method="post" action="orderlist"></form>
+    Delivery Intructions :
+    <br>
+    <textarea name="DeliveryIntructions" cols="50" rows="5"></textarea>
+    </br>
+    <h3><b>Design your dream pizza :</b></h3>
+    <p>pizza specs</p>
+    <fieldset>
+        <legend>
+            <p>crust (choose one) :</p>
+        </legend>
+        <ol>
+            <li><input type="radio" name="crust" value="Classic White" checked> classic white</li>
+            <li><input type="radio" name="crust" value="Multigrain" checked> Multigrain</li>
+            <li><input type="radio" name="crust" value="Cheese-stuffed crust" checked> Cheese-stuffed crust</li>
+            <li><input type="radio" name="crust" value="gluten-free" checked> gluten-free</li>
+        </ol>
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            <p>Topings ( choose as many as you want ) : </p>
+        </legend>
+        <form action="yourorder.html">
+            <input type="checkbox">
+            <label for="toping1">
+                Red sauce
+            </label> <br>
+            <input type="checkbox">
+            <label for="toping2">
+                White sauce
+            </label><br>
+            <input type="checkbox">
+            <label for="toping3">
+                Mozarella Cheese
+            </label><br>
+            <input type="checkbox">
+            <label for="toping4">
+                Peperoni
+            </label><br>
+            <input type="checkbox">
+            <label for="toping5">
+                Mushrooms
+            </label><br>
+            <input type="checkbox">
+            <label for="toping6">
+                Peppers
+            </label><br>
+            <input type="checkbox">
+            <label for="toping7">
+                Anchovies
+            </label><br>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>
+            <h3>Number</h3>
+        </legend>
+        <label> how many pizzas : <input type="number" name="pizza" min="1" max="6"></label>
+        </label>
+    </fieldset>
+
+    <p><input type="submit" value="Order my pizza"> <input type="reset" value="start over"></p>
+
+
+</form>
+
+
+
+</form>
+
+
+<body>
+
+</body>
+
+</html>
